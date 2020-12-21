@@ -1,0 +1,1648 @@
+com.codility.SoldProductsAggregatorSpec - should return empty result for null stream
+Output (stderr):
+java.lang.NullPointerException
+	at com.codility.SoldProductsAggregator.aggregate(SoldProductsAggregator.java:22)
+	at com.codility.SoldProductsAggregatorSpec.should return empty result for null stream(SoldProductsAggregatorSpec.groovy:44)
+Output:
+helloNull currency product 1 null
+helloUSD currency product 1 USD
+helloETB currency product 1 ETB
+hellolowercase currency product 1 etb
+hellowhitespace currency product 1 
+
+hellowhitespace currency product 1  
+hellowhitespace currency product 1 	
+hellowhitespace currency product 1  
+
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+WRONG ANSWER
+
+com.codility.SoldProductsAggregatorSpec - should return empty result for empty stream
+Output:
+helloNull currency product 1 null
+helloUSD currency product 1 USD
+helloETB currency product 1 ETB
+hellolowercase currency product 1 etb
+hellowhitespace currency product 1 
+
+hellowhitespace currency product 1  
+hellowhitespace currency product 1 	
+hellowhitespace currency product 1  
+
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+OK
+
+com.codility.SoldProductsAggregatorSpec - should filter out products with null exchange rate
+Output:
+helloNull currency product 1 null
+helloUSD currency product 1 USD
+helloETB currency product 1 ETB
+hellolowercase currency product 1 etb
+hellowhitespace currency product 1 
+
+hellowhitespace currency product 1  
+hellowhitespace currency product 1 	
+hellowhitespace currency product 1  
+
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+OK
+
+com.codility.SoldProductsAggregatorSpec - should filter out products with empty exchange rate
+Output:
+helloNull currency product 1 null
+helloUSD currency product 1 USD
+helloETB currency product 1 ETB
+hellolowercase currency product 1 etb
+hellowhitespace currency product 1 
+
+hellowhitespace currency product 1  
+hellowhitespace currency product 1 	
+hellowhitespace currency product 1  
+
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+OK
+
+com.codility.SoldProductsAggregatorSpec - should filter out products with negative exchange rate
+Output:
+helloNull currency product 1 null
+helloUSD currency product 1 USD
+helloETB currency product 1 ETB
+hellolowercase currency product 1 etb
+hellowhitespace currency product 1 
+
+hellowhitespace currency product 1  
+hellowhitespace currency product 1 	
+hellowhitespace currency product 1  
+
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+OK
+
+com.codility.SoldProductsAggregatorSpec - should filter out products with lowercase currency code
+Output:
+helloNull currency product 1 null
+helloUSD currency product 1 USD
+helloETB currency product 1 ETB
+hellolowercase currency product 1 etb
+hellowhitespace currency product 1 
+
+hellowhitespace currency product 1  
+hellowhitespace currency product 1 	
+hellowhitespace currency product 1  
+
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+OK
+
+com.codility.SoldProductsAggregatorSpec - should filter out products with whitespace currency code
+Output:
+helloNull currency product 1 null
+helloUSD currency product 1 USD
+helloETB currency product 1 ETB
+hellolowercase currency product 1 etb
+hellowhitespace currency product 1 
+
+hellowhitespace currency product 1  
+hellowhitespace currency product 1 	
+hellowhitespace currency product 1  
+
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+OK
+
+com.codility.SoldProductsAggregatorSpec - every product on a list should be an instance of SimpleSoldProduct class
+Output:
+helloNull currency product 1 null
+helloUSD currency product 1 USD
+helloETB currency product 1 ETB
+hellolowercase currency product 1 etb
+hellowhitespace currency product 1 
+
+hellowhitespace currency product 1  
+hellowhitespace currency product 1 	
+hellowhitespace currency product 1  
+
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+OK
+
+com.codility.SoldProductsAggregatorSpec - there should be ten filtered products
+Output (stderr):
+Condition not satisfied:
+
+aggregate.products.size() == 10
+|         |        |      |
+|         []       0      false
+SoldProductsAggregate(products=[], total=0)
+
+	at com.codility.SoldProductsAggregatorSpec.there should be ten filtered products(SoldProductsAggregatorSpec.groovy:136)
+Output:
+helloNull currency product 1 null
+helloUSD currency product 1 USD
+helloETB currency product 1 ETB
+hellolowercase currency product 1 etb
+hellowhitespace currency product 1 
+
+hellowhitespace currency product 1  
+hellowhitespace currency product 1 	
+hellowhitespace currency product 1  
+
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+WRONG ANSWER
+
+com.codility.SoldProductsAggregatorSpec - all filtered products shold have appropriate name
+Output (stderr):
+Condition not satisfied:
+
+aggregate.products*.name.containsAll((0..9).collect { "Name #$it".toString() })
+|         |         |    |                  |
+|         []        []   false              [Name #0, Name #1, Name #2, Name #3, Name #4, Name #5, Name #6, Name #7, Name #8, Name #9]
+SoldProductsAggregate(products=[], total=0)
+
+	at com.codility.SoldProductsAggregatorSpec.all filtered products shold have appropriate name(SoldProductsAggregatorSpec.groovy:145)
+Output:
+helloNull currency product 1 null
+helloUSD currency product 1 USD
+helloETB currency product 1 ETB
+hellolowercase currency product 1 etb
+hellowhitespace currency product 1 
+
+hellowhitespace currency product 1  
+hellowhitespace currency product 1 	
+hellowhitespace currency product 1  
+
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+WRONG ANSWER
+
+com.codility.SoldProductsAggregatorSpec - should return correct total
+Output (stderr):
+Condition not satisfied:
+
+new DecimalFormat("0000.0000").format(aggregate.total) == '1164.4300'
+|                              |      |         |      |
+java.text.DecimalFormat@674dc  |      |         0      false
+                               |      |                6 differences (33% similarity)
+                               |      |                (0000).(00)00
+                               |      |                (1164).(43)00
+                               |      SoldProductsAggregate(products=[], total=0)
+                               0000.0000
+
+	at com.codility.SoldProductsAggregatorSpec.should return correct total(SoldProductsAggregatorSpec.groovy:153)
+Output:
+helloNull currency product 1 null
+helloUSD currency product 1 USD
+helloETB currency product 1 ETB
+hellolowercase currency product 1 etb
+hellowhitespace currency product 1 
+
+hellowhitespace currency product 1  
+hellowhitespace currency product 1 	
+hellowhitespace currency product 1  
+
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+WRONG ANSWER
+
+com.codility.SoldProductsAggregatorSpec - sum od all products prices shoukd be equal to toatl
+Output (stderr):
+Condition failed with Exception:
+
+new DecimalFormat("0000.0000").format(aggregate.products.price.sum()) == '1164.4300'
+|                              |      |         |        |     |
+java.text.DecimalFormat@674dc  |      |         []       []    null
+                               |      SoldProductsAggregate(products=[], total=0)
+                               java.lang.IllegalArgumentException: Cannot format given Object as a Number
+
+	at com.codility.SoldProductsAggregatorSpec.sum od all products prices shoukd be equal to toatl(SoldProductsAggregatorSpec.groovy:161)
+Caused by: java.lang.IllegalArgumentException: Cannot format given Object as a Number
+	at java.text.DecimalFormat.format(DecimalFormat.java:507)
+	at java.text.Format.format(Format.java:157)
+	... 1 more
+Output:
+helloNull currency product 1 null
+helloUSD currency product 1 USD
+helloETB currency product 1 ETB
+hellolowercase currency product 1 etb
+hellowhitespace currency product 1 
+
+hellowhitespace currency product 1  
+hellowhitespace currency product 1 	
+hellowhitespace currency product 1  
+
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+WRONG ANSWER
+
+com.codility.SoldProductsAggregatorSpec - should return correct result for various products
+Output (stderr):
+Condition not satisfied:
+
+aggregate.products.size() == 10
+|         |        |      |
+|         []       0      false
+SoldProductsAggregate(products=[], total=0)
+
+	at com.codility.SoldProductsAggregatorSpec.should return correct result for various products(SoldProductsAggregatorSpec.groovy:170)
+Output:
+helloNull currency product 1 null
+helloUSD currency product 1 USD
+helloETB currency product 1 ETB
+hellolowercase currency product 1 etb
+hellowhitespace currency product 1 
+
+hellowhitespace currency product 1  
+hellowhitespace currency product 1 	
+hellowhitespace currency product 1  
+
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+helloName #0 0 PLN
+helloName #1 100 UAH
+helloName #2 200 HRK
+helloName #3 300 RUB
+helloName #4 400 RSD
+helloName #5 500 EUR
+helloName #6 600 CZK
+helloName #7 700 HUF
+helloName #8 800 BGN
+helloName #9 900 RON
+helloIncorrect #0 0 ETB
+helloIncorrect #1 100 FJD
+helloIncorrect #2 200 GMD
+helloIncorrect #3 300 GTQ
+helloIncorrect #4 400 GHS
+helloNull currency product 1 null
+helloLowercase currency product 1 lower
+helloNull currency product 1 USD
+WRONG ANSWER
+
+Producing output might cause your solution to fail performance tests.
+You should remove code that produces output before you submit your solution.
+
+Detected some errors.

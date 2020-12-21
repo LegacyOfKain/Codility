@@ -1,0 +1,44 @@
+
+While working on an e-commerce service, you need to build a simple aggregator for a report, 
+which will hold sold products and a sum of their prices converted to EUR currency. 
+You're given a stream (java.util.stream.Stream) of SoldProduct objects. SoldProduct is defined as follows: 
+
+@Value  
+SoldProduct { 
+	String name; 
+	BigDecimal price; 
+	String currency; 
+}
+
+(@Value comes from lombok tool and will make this class immutable - generate toString, equals and hashCode, 
+make all fields private and final, add getters for all the fields and add single all arguments constructor). 
+
+Write a function, which will map the Stream<SoldProduct> to an instance of 
+SoldProductsAggregate which is defined as follows: 
+
+@Value 
+class SoldProductaAggregate { 
+	List<SimpleSoldProduct> products; 
+	BigDecimal total; 
+}
+
+and SimpleSoldProduct: 
+
+@Value 
+class SimpleSoldProduct { 
+	String name; 
+	BigDecimal price;
+} 
+
+To convert price to EUR use EURExchangeService which implements ExchangeService: 
+interface ExchangeService 
+{ 
+  Optional<BigDecimal> rate(String currency); 
+}
+
+Unfortunately EURExchangeService is a bit buggy and may return some invalid values (like null, 
+empty or negative). You should handle it by ignoring them. 
+
+If an argument you get as input to SoldProductsAggregate. aggregate( ) is null, empty stream and 
+so on - then you must not return null. In case of such argument, you must convert it to empty 
+stream before doing the mapping. 
